@@ -1,6 +1,6 @@
 # 💫 About Me:
 . ݁₊ ⊹ . ݁ ⟡ ݁ . ⊹ ₊ ݁.
-A 22-year old Master's Student in Data Science with a knack for poetry and literature.⋆˙⟡ ⋆.˚ ⊹₊⟡ ⋆<br>⏾⋆.˚ I live by "What you seek is seeking you."˚ ༘ ⋆｡
+A 23-year old Master's Student in Data Science with a knack for poetry and literature.⋆˙⟡ ⋆.˚ ⊹₊⟡ ⋆<br>⏾⋆.˚ I live by "What you seek is seeking you."˚ ༘ ⋆｡
 
 
 ## 🌐 Socials:
