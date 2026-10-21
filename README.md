@@ -6,7 +6,7 @@
 ### AI/ML Engineering | Data Science & Analytics
 
 MSc Data Science @ Universität Mannheim 🇩🇪  
-First-Class Honours BSc Computer Science (Data Science) @ Heriot-Watt University
+First-Class Honors BSc Computer Science (Data Science) @ Heriot-Watt University
 
 [LinkedIn](https://www.linkedin.com/in/sanjeevani-rajpurohit-690103144/) · [Email](mailto:sanjeevani1109@gmail.com) · [Repositories](https://github.com/sanjeevani1193?tab=repositories)
 
