@@ -16,7 +16,7 @@ First-Class Honors BSc Computer Science (Data Science) @ Heriot-Watt University
 
 ### 🌱 About Me
 
-I enjoy building **LLM and machine learning systems that go beyond the notebook** — from data engineering and model development to inference, APIs, deployment, and evaluation.
+I enjoy building **LLM and machine learning systems that go beyond the notebook** - from data engineering and model development to inference, APIs, deployment, and evaluation.
 
 I'm currently completing my MSc in Data Science at Universität Mannheim (expected March 2027), with a focus on **AI/ML Engineering, NLP, LLMs, and Data Science**.
 
@@ -32,7 +32,7 @@ I'm currently completing my MSc in Data Science at Universität Mannheim (expect
 | **Languages & Data** | Python, SQL, R, pandas, NumPy, DuckDB, SQLite, Parquet |
 | **ML & Deep Learning** | PyTorch, TensorFlow, scikit-learn, XGBoost, Hugging Face Transformers |
 | **LLMs & NLP** | LangChain, LangGraph, SentenceTransformers, ChromaDB, vLLM, LoRA/QLoRA |
-| **Backend & MLOps** | FastAPI, REST APIs, Docker, Docker Compose, MLflow, GitHub Actions |
+| **Backend & MLOps** | FastAPI, REST APIs, Docker, Docker Compose, MLflow, GitHub Actions (CI/CD) |
 | **Cloud & Analytics** | GCP, Power BI, Excel, Streamlit, Matplotlib, Plotly |
 | **Collaboration** | Git/GitHub, Jira, Notion, Agile/Scrum |
 
@@ -83,7 +83,7 @@ Compared content-based filtering, collaborative filtering, cascade hybrid, and w
 
 ### ☕ Beyond Code
 
-Outside technology, I enjoy reading, poetry, and exploring new ideas. I'm always excited to learn something new, collaborate on interesting problems, and connect with people who enjoy building things.
+Outside technology, I enjoy reading, writing poetry, hiking and strength training. I'm always excited to learn something new, collaborate on interesting problems, and connect with people who enjoy building things.
 
 ### 📫 Let's Connect!
 
