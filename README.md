@@ -22,7 +22,7 @@ I'm currently completing my **MSc in Data Science at the University of Mannheim*
 
 - 🔬 **Currently researching:** Low-resource **Odia machine translation**, exploring multilingual transfer, model adaptation, and data augmentation for English–Odia and Hindi–Odia translation.
 - 📈 **Recently shipped:** [GrowthLab](https://github.com/sanjeevani1193/GrowthLab), an end-to-end customer intelligence platform combining predictive ML, causal analysis, A/B experimentation, reward economics, and personalized product ranking. [**Live Demo ↗**](https://growthlab-decision-studio.streamlit.app/)
-- ⚙️ **ML Engineering:** Built [CityPulse AI](https://github.com/sanjeevani1193/CityPulse-AI), a large-scale urban mobility ML platform featuring forecasting, agentic analytics, cloud deployment, and CI/CD.
+- ⚙️ **ML Engineering:** Built [CityPulse AI](https://github.com/sanjeevani1193/CityPulse-AI), a large-scale urban mobility ML platform featuring forecasting, agentic analytics, cloud deployment, and CI/CD. Its five-workspace Decision Studio is now publicly accessible. [**Live Demo ↗**](https://citypulse-ai-decision-studio.streamlit.app/)
 - 📊 **Industry background:** Data analytics and technical project management, with experience in business intelligence, reporting, and cross-functional collaboration.
 - 🎯 **Interested in:** AI/ML Engineering, Data Science, applied AI research, and building reliable systems that solve meaningful problems.
 
@@ -58,18 +58,21 @@ An end-to-end **customer intelligence and decision-support platform** combining 
 
 ---
 
-### 🚲 [CityPulse AI — Urban Mobility Forecasting & ML Engineering](https://github.com/sanjeevani1193/CityPulse-AI)
+### 🚲 CityPulse AI — ML Forecasting, Agentic AI & MLOps
+
+**[Live Demo ↗](https://citypulse-ai-decision-studio.streamlit.app/) · [GitHub](https://github.com/sanjeevani1193/CityPulse-AI)**
 
 *Data Engineering · Time-Series Forecasting · Deep Learning · Agentic AI · Cloud · MLOps*
 
-An end-to-end urban mobility ML platform combining large-scale NYC Citi Bike data engineering, demand forecasting, LLM-powered analytics, and statistical experimentation.
+An end-to-end urban mobility ML platform combining historical NYC Citi Bike data engineering, station-level forecasting, agentic analytics, and reproducible synthetic experimentation.
 
-- Processed approximately **90M Citi Bike ride starts** using DuckDB/Parquet ETL pipelines with validation checks and reproducible workflows.
-- Benchmarked **six forecasting approaches**, including XGBoost and deep-learning models, achieving a **26.9% reduction in held-out MAE** with XGBoost versus a daily seasonal baseline.
-- Developed **SQLPilot**, a LangGraph/MCP-based text-to-SQL analyst, alongside an **ExperimentLab** supporting synthetic A/B testing and CUPED analysis.
-- Built FastAPI inference services and implemented **Docker, MLflow, GitHub Actions CI/CD, Terraform, and authenticated Google Cloud Run deployment**.
+- Engineered **DuckDB/Parquet ETL** processing approximately **90M accepted ride starts over 24 months** into **19.36M station-hour records**, with validation, DST-aware aggregation, memory-bounded processing, and recoverable checkpoints.
+- Benchmarked **six forecasting approaches** across 100 stations: XGBoost, PyTorch MLP/TFT, TensorFlow LSTM, and lag-24/lag-168 seasonal baselines. XGBoost achieved **26.9% lower held-out MAE than lag-24** across **220,800 test targets**; experiments tracked with **MLflow**.
+- Independently developed **SQLPilot** using **LangGraph, MCP client/server tools, and Groq-hosted LLM inference**, with guarded read-only SQL validation, bounded error recovery, and reference-query evaluation. The public demo executes curated read-only SQL; it does **not** call a live LLM or run an agent/MCP session.
+- Developed **ExperimentLab** for reproducible **synthetic A/B experimentation** using Welch's t-test, CUPED, confidence intervals, and power analysis. These are simulated outcomes, not real-world intervention results.
+- Deployed authenticated, **Dockerized XGBoost inference on GCP Cloud Run** with **Terraform, Cloud Build, GitHub Actions CI/CD**, and exact saved-validation local/cloud prediction parity. Subsequently published an independently hosted **Streamlit + Plotly Decision Studio** with **Overview, Forecast Explorer, Model Comparison, SQLPilot, and ExperimentLab & Methodology**. The public app explores saved forecasts and research evidence without a GCP runtime dependency; the historical cloud CD workflow is now disabled.
 
-**Stack:** Python, SQL, DuckDB, PyTorch, TensorFlow, XGBoost, LangGraph, MCP, FastAPI, Docker, MLflow, GCP, Terraform.
+**Stack:** Python, SQL, DuckDB, Parquet, XGBoost, PyTorch, TensorFlow, LangGraph, MCP, Groq, FastAPI, Docker, MLflow, GCP, Cloud Build, Terraform, GitHub Actions CI/CD, Streamlit, Plotly.
 
 ---
 
